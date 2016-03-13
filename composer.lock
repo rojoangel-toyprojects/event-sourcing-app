@@ -1320,12 +1320,12 @@
         },
         {
             "name": "rojoangel-toyprojects/event-sourcing-bundle",
-            "version": "v0.1.0",
+            "version": "v0.1.2",
             "target-dir": "ToyProject/EventSourcingBundle",
             "source": {
                 "type": "git",
                 "url": "git@github.com:rojoangel-toyprojects/event-sourcing-bundle.git",
-                "reference": "bf6b175a274a660ba9eafd59bf56f39e1634e448"
+                "reference": "d29f9339443cf3dfd4c33b1addec9f61c1643620"
             },
             "require": {
                 "rojoangel/event-sourcing": "^0.1"
@@ -1357,7 +1357,7 @@
             "keywords": [
                 "event sourcing bundle"
             ],
-            "time": "2016-02-27 23:44:29"
+            "time": "2016-03-13 22:04:57"
         },
         {
             "name": "rojoangel/event-sourcing",
@@ -2485,7 +2485,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/phpunit-bridge/zipball/855dc0e829fad123966347612b4183e307338c11",
+                "url": "https://api.github.com/repos/symfony/phpunit-bridge/zipball/9562f8291b98bcd4abd4959ab74f35191d7b34b5",
                 "reference": "855dc0e829fad123966347612b4183e307338c11",
                 "shasum": ""
             },
