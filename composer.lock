@@ -1320,12 +1320,12 @@
         },
         {
             "name": "rojoangel-toyprojects/event-sourcing-bundle",
-            "version": "v0.1.2",
+            "version": "v0.1.5",
             "target-dir": "ToyProject/EventSourcingBundle",
             "source": {
                 "type": "git",
                 "url": "git@github.com:rojoangel-toyprojects/event-sourcing-bundle.git",
-                "reference": "d29f9339443cf3dfd4c33b1addec9f61c1643620"
+                "reference": "24670138f172e8c0c9c7500416664df75c5dd0c4"
             },
             "require": {
                 "rojoangel/event-sourcing": "^0.1"
@@ -1357,7 +1357,7 @@
             "keywords": [
                 "event sourcing bundle"
             ],
-            "time": "2016-03-13 22:04:57"
+            "time": "2016-03-26 21:45:01"
         },
         {
             "name": "rojoangel/event-sourcing",
