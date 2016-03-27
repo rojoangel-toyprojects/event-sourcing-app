@@ -69,12 +69,28 @@
         }
     },
     "repositories" : [
-      {
-        "type" : "git",
-        "url" : "git@github.com:rojoangel-toyprojects/event-sourcing-bundle.git"},
-      {
-        "type" : "git",
-        "url" : "git@github.com:rojoangel/event-sourcing.git"
-      }
+        {
+            "type": "path",
+            "url": "../event-sourcing-bundle",
+            "options": {
+                "symlink": true
+            }
+        },
+        {
+            "type": "path",
+            "url": "../event-sourcing",
+            "options": {
+                "symlink": true
+            }
+        },
+        {
+            "type" : "git",
+            "url" : "git@github.com:rojoangel/event-sourcing.git"
+        },
+        {
+            "type" : "git",
+            "url" : "git@github.com:rojoangel-toyprojects/event-sourcing-bundle.git"
+        }
+
     ]
 }

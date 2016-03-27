@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5622d1834233ed49202987c4c8ee5ba0",
-    "content-hash": "9f7ba5362894b0d4481201e46109ab6c",
+    "hash": "afdcc6b085e8decb515e5e1880d21a00",
+    "content-hash": "7810c4f5275b0d3977ca74e325739d2e",
     "packages": [
         {
             "name": "beberlei/assert",
@@ -1320,12 +1320,13 @@
         },
         {
             "name": "rojoangel-toyprojects/event-sourcing-bundle",
-            "version": "v0.1.8",
+            "version": "0.1.8.0",
             "target-dir": "ToyProject/EventSourcingBundle",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:rojoangel-toyprojects/event-sourcing-bundle.git",
-                "reference": "04f7f335248759f638ee41f781e3c6baee3d0dfe"
+            "dist": {
+                "type": "path",
+                "url": "../event-sourcing-bundle/",
+                "reference": "6e380a42f7c4cc8dee304ca26493a6eda1b479eb",
+                "shasum": null
             },
             "require": {
                 "rojoangel/event-sourcing": "^0.1"
@@ -1356,16 +1357,16 @@
             "description": "Event sourcing toy project bundle",
             "keywords": [
                 "event sourcing bundle"
-            ],
-            "time": "2016-03-27 17:11:34"
+            ]
         },
         {
             "name": "rojoangel/event-sourcing",
-            "version": "v0.1.1",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:rojoangel/event-sourcing.git",
-                "reference": "91c88663c71bf13649f37038bb161ce12bd707c5"
+            "version": "0.1.1.0",
+            "dist": {
+                "type": "path",
+                "url": "../event-sourcing/",
+                "reference": "9487c10710556530a942e868175e104db5927ad4",
+                "shasum": null
             },
             "require": {
                 "broadway/broadway": "^0.8.0",
@@ -1396,8 +1397,7 @@
                     "email": "rojo.angel@gmail.com"
                 }
             ],
-            "description": "Event Sourcing Pet Project",
-            "time": "2016-03-27 10:29:12"
+            "description": "Event Sourcing Pet Project"
         },
         {
             "name": "sensio/distribution-bundle",
