@@ -68,8 +68,28 @@ swiftmailer:
     password:  "%mailer_password%"
     spool:     { type: memory }
 
+# Broadway Configuration
+# broadway:
+#     event_store:
+#         dbal:
+#             table:            events
+#             use_binary:       false # If you want to use UUIDs to be stored as BINARY(16), required DBAL >= 2.5.0
+#     command_handling:
+#         logger:               false # If you want to log every command handled, provide the logger's service id here (e.g. "logger")
+#     saga:
+#         repository:           ~ # One of "in_memory"; "mongodb"
+#     read_model:
+#         repository:           ~ # One of "in_memory"; "elasticsearch"
+#         elasticsearch:
+#             hosts:
+#                 # Default:
+#                 - localhost:9200
 broadway:
-    saga:
-      repository: "in_memory"
-    read_model:
-      repository: "in_memory"
+  event_store:
+    dbal:
+      table: events
+      use_binary: false
+  saga:
+    repository: "in_memory"
+  read_model:
+    repository: "in_memory"
