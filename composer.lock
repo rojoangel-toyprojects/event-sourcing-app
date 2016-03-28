@@ -1367,6 +1367,11 @@
         {
             "name": "rojoangel/event-sourcing",
             "version": "0.1.1.0",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:rojoangel/event-sourcing.git",
+                "reference": "91c88663c71bf13649f37038bb161ce12bd707c5"
+            },
             "dist": {
                 "type": "path",
                 "url": "../event-sourcing/",
