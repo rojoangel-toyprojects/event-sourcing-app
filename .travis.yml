@@ -8,7 +8,7 @@ before_install:
   - composer self-update
 
 install:
-  - composer install --prefer-dist
+  - composer install --prefer-source
 
 script:
   - ./vendor/bin/phpunit --coverage-clover ./build/logs/clover.xml
