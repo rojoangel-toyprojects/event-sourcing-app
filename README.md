@@ -4,8 +4,7 @@ event-sourcing-bundle
 A Symfony project created on February 27, 2016, 7:42 pm.
 
 [![Build Status](https://travis-ci.org/rojoangel-toyprojects/event-sourcing-app.svg?branch=master)](https://travis-ci.org/rojoangel-toyprojects/event-sourcing-app)
-[![Codacy Badge](https://api.codacy.com/project/badge/grade/c8c71b8095304e18a6e25ad580b485fa)](https://www.codacy.com/app/rojoangel/event-sourcing-bundle)
-
+[![Codacy Badge](https://api.codacy.com/project/badge/grade/d48e0647918f4d31a48db432de1899a2)](https://www.codacy.com/app/rojoangel/event-sourcing-app)
 ## How to install the application
 After cloning this repository run
 ```
